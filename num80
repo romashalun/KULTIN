@@ -1,0 +1,18 @@
+// Проверяет, является ли год високосным 
+#include <stdio.h> 
+#include <conio.h> 
+void mainO 
+{ 
+int year; 
+int r; // остаток от деления year на 4 
+printf("Введите год, например 2001, и нажмите <Enter>"); 
+printf("->"); 
+scanf("%i", &year); 
+r = year % 4; 
+if ( r ) 
+printf("%i год ~ невисокосный\n", year); 
+else 
+printf("%i год ~ високосный\п", year); 
+printf("\пДля завершения нажмите <Enter>"); 
+getch();
+}
