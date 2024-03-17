@@ -1,0 +1,9 @@
+#include <iostream>
+
+int main() {
+    float radius;
+    float square;
+    float pi = 3.14
+
+    return 0;
+}
