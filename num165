@@ -1,0 +1,19 @@
+// приветствие 
+#include <stdio.h> 
+#include <conio.h> 
+void main () 
+{ 
+char name[15]; // имя 
+char fam[20] ; // фамилия 
+printfC'KaK Вас зовут?\п") ; 
+printf("Введите свое имя и фамилию,"); 
+printf("затем нажмите <Enter>"); 
+printf("-> ") ; 
+scanf("%s", &name); 
+scanf("%s", &fam); 
+// функция scanf читает из буфера клавиатуры символы 
+//до разделителя - пробела 
+printf("Здравствуйте, %s %s!\n", name, fam); 
+printf("\пДля завершения нажмите <Enter>"); 
+getch(); 
+} 
