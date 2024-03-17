@@ -1,0 +1,24 @@
+// Функция compare возвращает результат сравнения чисел 
+/ /в виде символа отношения 
+tinclude "stdio.h" 
+#include "conio.h" 
+char compare(int a, int b) 
+{ 
+char res; 
+if (a > b) res = '>'; 
+else if (a < b) res = *<'; 
+else res = *='; 
+return(res); 
+} 
+void mainO 
+{ 
+int xl,x2; // сравниваемые числа 
+cheu: res; // результат сравнения 
+puts("Введите два целых числа и нажмите <Enter>"); 
+printf("->"); 
+scanf("%i%i", &xl, &x2); 
+res = compare(xl,x2); // вызов функции программиста 
+printf("%i %c %i\n", xl, res, x2); 
+puts("\nДля завершения работы программы \ 
+нажмите <Enter>"); 
+getch();
