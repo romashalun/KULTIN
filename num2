@@ -1,0 +1,8 @@
+#include <iostream>
+
+int main() {
+    float funt;
+    float kg; 
+
+    return 0;
+}
