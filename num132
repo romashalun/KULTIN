@@ -1,0 +1,27 @@
+// Электронные часы 
+#include <stdio.h> 
+#include <conio.h> 
+#include "dos.h" 
+void mainO 
+{ 
+// для доступа к delay 
+int inin,sec; // минуты, секунды 
+clrscrO; // очистить экран 
+_setcursortype (_NOCURSOR); // убрать курсор 
+printf("Чтобы остановить таймер, нажмите любую клавишу"); 
+for (min = 0; min <= 2; min++) 
+{
+    for (sec = 0; sec <= 59; sec++) 
+{ 
+delay(1000); // задержка 1000 itis 
+gotoxy(l,3); // курсор в 1~ую колонку 1-ой строки 
+printf("%i:%2i", min, sec); 
+if (kbhitO) break; 
+} 
+if (kbhitO) break; 
+} 
+_setcursortype (_NORMALCURSOR); 
+getchO; // клавиша, остановившая часы 
+printf("\пДля завершения нажмите <Enter>"); 
+getch(); 
+}
