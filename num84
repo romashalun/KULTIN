@@ -1,0 +1,27 @@
+// Вычисление стоимости покупки с учетом скидки 
+#include <stdio.h> 
+#include <conio.h> 
+void main() 
+{ 
+float surnm; // сумма покупки 
+printf("ХпВычисление стоимости покупки с учетом скидкиХп"); 
+printf("Введите стоимость покупки и нажмите <Enter>"); 
+printf("-> ") ; 
+scanf("%f", &suinni) ; 
+if (suirai < 500) 
+printf("Скидка не предоставляется.\n"); 
+else { 
+printf("Вам предоставляется скидка ") ; 
+if (summ > 1000) { 
+printf("5%\n"); 
+summ = 0.97 * summ; 
+} 
+else { 
+printf("3%\n");
+suirau = 0.97 * summ; 
+} ; 
+print f ("Сумма с учетом скидки: %3.2f рубЛп" , summ); 
+} 
+printf("\пДл я завершения нажмите <Enter>"); 
+getch(); 
+} 
