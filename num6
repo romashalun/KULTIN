@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    float radius; // Радиус цилиндра
+    float height; // Высота цилиндра
+    float volume; // Объем цилиндра
+    float surfaceArea; // Площадь поверхности цилиндра
+
+    return 0;
+}
