@@ -1,0 +1,22 @@
+// Приветствие (посимвольный ввод строки) 
+#include <stdio.h> 
+#include <conio.h> 
+void main() 
+{ 
+char name[40]; // иьля и отчество пользователя 
+char cti; 
+int i; 
+printf("Как Вас зовут?\п"); 
+printf("(введите свое имя, отчество и нажмите <Enter>"); 
+printf("-> ") ; 
+i = 0; 
+while ( (cli=getch() ) != 13 && i < 40) // пока не нажата 
+// клавиша <Enter>
+{ putch(ch); 
+name[i++] = ch; 
+} 
+naine[i] = 40»; 
+printf("ХпЗдравствуйте, %s!\n", паше); 
+printf("\пДля завершения нажмите <Enter>"); 
+getch(); 
+}
