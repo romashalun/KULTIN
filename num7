@@ -1,1 +1,12 @@
+#include <iostream>
 
+int main() {
+    float CenaTetr; 
+    int KolTetr; 
+    float CenaKar; 
+    int KolKar; 
+    float CenaLin; 
+    float Suirana ;  
+
+    return 0;
+}
