@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+    char firstName[] = "Roma"; // Ваше имя
+    char lastName[] = "Akhmarov"; // Ваша фамилия
+    
+    printf("Меня зовут %s %s\n", firstName, lastName);
+
+    return 0;
+}
