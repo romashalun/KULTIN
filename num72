@@ -1,0 +1,27 @@
+// Вычисление дохода по вкладу 
+#include <stdio.h> 
+#include <conio.h> 
+void mainO 
+{ 
+float suram; // сумма вклада 
+int srok; // срок вклада 
+float stavka; // процентная ставка 
+float dohod; // доход no вкладу 
+printf("ХпВычисление дохода по вкладуХп"); 
+printf("Введите исходные данные:\п"); 
+printf("Величина вклада (руб.) -> ") ; 
+scanf("%f", &suiran) ; 
+printf("Срок вклада (дней) -> ") ; 
+scanf("%i", &srok); 
+printf("Процентная ставка (годовых) -> ") ; 
+scanf("%f", &stavka); 
+dohod = suirati * stavka/365/100 * srok; / / 365 - кол-во 
+/ / дней в году 
+suiran = summ + dohod; 
+print f (" \n" ) ; 
+print f ("Доход: %9.2f рубЛп" , dohod);
+printf("Сумма по окончании срока вклада: \ 
+%9.2f py6.\n",suram); 
+printf("\пДля завершения нажмите <Enter>"); 
+getch(); 
+} 
