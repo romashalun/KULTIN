@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int quantityNotebooks; // Количество тетрадей
+    int quantityCovers; // Количество обложек
+    float pricePerNotebook; // Цена одной тетради
+    float totalPrice; // Общая стоимость покупки
+
+    return 0;
+}
