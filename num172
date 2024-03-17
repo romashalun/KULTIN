@@ -1,0 +1,28 @@
+// Удаление начальных пробелов из строки 
+#include <stdio.h> 
+#include <conio.h> 
+#include "string.h" 
+void mainO 
+{ 
+lansigned char sst[80]; // строка 
+unsigned char dst[80]; // буфер 
+int i,j; 
+printf("Удаление начальных пробеловХп"); 
+printf("Введите строку:"); 
+i=0; 
+while ((sst[i] = getchO) != 13) 
+putch(sst[i++]); 
+sst[i] = '\0'; 
+i = 0; j = 0; 
+// найдем первый символ, отличный от пробела 
+while( sst[i] && sst[i] == ' •) 
+i++; 
+// здесь i - номер первого символа, отличного от пробела, 
+// скопрфуем sst в dst 
+whil e (sst[i]) 
+dst[j++] = sst[i++]; 
+dst[j] = 'NO'; 
+printf("ХпСтрока без начальных пробелов:%s\n",dst); 
+printf("ХпДля завершения нажмите <Enter>")/ 
+getch(); 
+}
