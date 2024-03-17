@@ -1,0 +1,24 @@
+// Преобразование прописных букв в строчные 
+#include <stdio.h> 
+#include <conio.h> 
+void mainO 
+{ 
+unsigned dtiar st[80]; // строка текста 
+int i; // номер обрабатываемого символа 
+printf("ХпВведите строку текста и нажмите <Enter>"); 
+printf("->"); 
+gets(st); 
+i = 0; 
+whil e ( st[i ] ) 
+{ 
+i f ((st[i ] >= 'a» && st[i ] <- 'z') | | 
+(st[i ] >= 'a' && st[i ] <= 'n')) 
+st[i ] -= 32; 
+els e i f (st[i] >= 'p' && st[i ] <= 'я') 
+st[i ] -= 80; 
+i++; 
+} 
+printf("\n%s\n", St); 
+printf("\пДля завершения нажмите <Enter>"); 
+getch(); 
+}
