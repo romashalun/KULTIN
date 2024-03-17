@@ -1,0 +1,39 @@
+// Вычисление суммы элементов массива (по столбцам) 
+#include <stdio.h> 
+#include <conio.h> 
+idefine ROW 3 // кол-во строк 
+#define COL 5 // кол-во столбцов 
+void mainO 
+{ 
+int a[ROW][COL]; // массив 
+int s[COL]; // сумма элементов 
+int i,j; 
+printf("\пВведите массивХп"); 
+printf("После ввода элементов каждой строки,"); 
+printf("\n%i целых чисел, нажимайте <Enter>\n", COL); 
+for (i = 0; i < ROW; i-f+) // ROW строк 
+{ 
+printf("->"); 
+for (j = 0; j < COL; j++) 
+scanf("%i", &a[i][j]); 
+} 
+printf("ХпВведенный массивХп"); 
+for (i = 0; i < ROW; i++) 
+{ 
+for (j = 0; j < COL; j++) 
+printf("%i " , a[i][j]); 
+printf("\n"); 
+} 
+// "очистим" массив s 
+for (i = 0; i < COL; i++) 
+s[i3 « 0; 
+// обработка 
+for (j =0 ; j < COL; j+-f-) // для каждого столбца 
+for (i = 0; i < ROW; i++) // суммируем эл-ты 
+s[j] += a[i3[j]; 
+printf (" \п") ; 
+for (i = 0; i < COL; i++) 
+printf("%i ", s[i]); 
+printf("\пДля завершения нажмите <Enter>"); 
+getch(); 
+} 
