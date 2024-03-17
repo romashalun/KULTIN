@@ -1,0 +1,27 @@
+// Скорость бега 
+#include <stdio.h> 
+#include <conio.h> 
+void main() 
+{ 
+float s; // дистанция 
+float t; // время 
+float v; // скорость 
+int min; // минут 
+int sek; // секунд 
+float ts; // время в секундах 
+printf("Вычисление скорости бега\п"); 
+printf("Введите длину дистанции (метров) -> ") ; 
+scanf("%f", &s); 
+printf("Введите время (минут, секунд)~> ") ; 
+scanf("%f", &t); 
+min = t; 
+sek = (t - min) * 100; 
+ts = min * 60 + sek; 
+V = (s /1000) / (ts / 3600); 
+printf("Дистанция : %4.0f м\п" , s) ; 
+printf("Время : %i мин %i сек = %4.0f сек\п" , min, \ 
+sek, ts) ; 
+printf("Вы бежали со скоростью %2.2f км/час\п", v); 
+printf("\пДля завершения нажмите <Enter>"); 
+getch(); 
+}
