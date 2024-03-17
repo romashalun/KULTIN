@@ -1,0 +1,7 @@
+float ctetr, ckar; // цена тетради и карандаша 
+int ntetr, nkar; // количество тетрадей и карандашей 
+printf("Введите цену и количество (в одной строке)\п"); 
+printf("Тетради ->"); 
+scanf("%f %i", &ctetr, &ntetr) 
+printf{"Карандаши ->"); 
+scanf("%f %i", &ckar, &nkar)
