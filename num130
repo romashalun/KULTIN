@@ -1,0 +1,43 @@
+// Программа проверяет знание таблицы умножения 
+#include <stdio.h> 
+#include <conio.h> 
+#include <stdlib.h> // для доступа к srand и rand 
+#include <time.h> 
+void main () 
+{ 
+int numbl, nu]nnb2; // сомножители 
+int res; // произведение 
+int otv; // ответ испытуемого 
+int kol =0 ; // количество правильных ответов 
+int i; // счетчик циклов 
+time_t t; // текущее время - для инициализации 
+// генератора случайных чисел
+printf("\*** Проверка знания таблицы умножения ***\п"); 
+printfC После примера введите ответ и нажмите <Enter>"); 
+srand((unsigned) time(&t));; // инициализация генератора 
+// случайных чисел 
+for (i = 1; i <= 10; i++) // 10 примеров 
+{ 
+numbl = rand()%7 + 2 ; / / число от 2 до 9 
+nuinb2 = rand()%7 + 2 ; 
+res = numbl * nurnb2; 
+printf("%ix%i=", numbl, numb2); 
+scanf("%i",&otv); 
+if (otv == res) 
+koH-+; 
+else printf("Bы ошиблись! %1х%1=%±\пПродолжим...\n", 
+numbl, numb2, res) ; 
+} 
+printf("ХпПравильных ответов: %i\n", kol); 
+printf("Ваша оценка: ") ; 
+switch (kol) 
+{ 
+case 10: puts("5"); break; 
+9: puts("4"); break; 
+case 8: puts("4"); break; 
+case 7: puts("3"); break; 
+default: puts("2"); break; 
+} 
+printf("\пДля завершения нажмите <Enter>"); 
+getch() ; 
+}
