@@ -1,0 +1,28 @@
+// Проверка умения умножать числа 
+#include <stdio.h> 
+#include <conio.h> 
+#include <stdlib.h> // для доступа к srand 
+#include <time.h> // для доступа к time 
+void main() 
+{ 
+int ml, m2, p; // сомножители и произведение 
+int otv; // ответ испытуемого 
+time_t t; // текущее время - для инициализации 
+// генератора случайных чисел 
+srand((iinsigned) time(&t));; // инициализация генератора 
+// случ. чисел 
+ml = rand О % 9 +1; // остаток от деления randO на 9 
+// лежит в диапазоне от О до 8 
+т2 = rand О % 9 +1; 
+р = ml * m2; 
+printf("Сколько будет %ix%i ?\n", ml, m2); 
+printf("Введите ответ и нажмите <Enter>"); 
+printf("-> ") ; 
+scanf("%i", &otv); 
+if (p == otv) 
+printf("Правильно."); 
+else 
+printf("Вы ошиблись.\n%ix%i=%i", ml, m2, p) ; 
+printf("\пДля завершения нажмите <Enter>"); 
+getch(); 
+} 
