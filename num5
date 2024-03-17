@@ -1,0 +1,8 @@
+#include <iostream>
+
+int main() {
+    float rl, г2;
+    float s; 
+
+    return 0;
+}
