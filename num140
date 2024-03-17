@@ -1,0 +1,24 @@
+// Выводит таблицу функции 
+#inclucie <stciio.h> 
+#include <conio.h> 
+void main() 
+{ 
+float x,dx; // аргумент и его приращение 
+float х1,х2; // диапазон изменения аргумента 
+float у; // значение функции 
+х1 = -4; 
+х2 = 4; 
+dx = 0.5; 
+X = х1; 
+printf (" \п") ; 
+printf (" X I у\п"); 
+printf (" \п") ; 
+while (х < х2) { 
+у = х*х + 2; 
+printf("%3.2f 1 %3.2f\n", X, у); 
+X += dx; 
+} 
+printf (" \n") ; 
+printf("\пДля завершения нажмите <Enter>"); 
+getch (); 
+} 
