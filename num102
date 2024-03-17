@@ -1,0 +1,48 @@
+// Определение стоимости междугородного 
+// телефонного разговора 
+tinclude <stdio.h> 
+#include <conio.h> 
+void mainO 
+{ 
+int kod; // код города 
+float cena; // цена минуты 
+int dlit; // длительность разговора 
+float suram; // стоимость разговора 
+printf("ХпВычисление стоимости разговора по"); 
+printf("телефону Лп") ; 
+printf("Введите исходные данные:\п"); 
+printf("Длительность разговора (целое кол-во минут) ->"); 
+scanf("%i", &dlit); 
+puts("Код города"); 
+puts("Bлaдивocтoк\t432") ; 
+puts("MocKBa\t\t095"); 
+puts("MypMaHCK\t815"); 
+puts("CaMapa\t\t846"); 
+printf("->"); 
+scanf("%i", &kod);
+printf("Город: ") ; 
+switch (kod) 
+{ 
+case 432: puts("Владивосток"); 
+cena = 2.2; 
+break; 
+case 95: puts("Москва"); 
+cena = 1; 
+brecJc; 
+case 815: puts("Мурманск"); 
+cena = 1.2; 
+break; 
+case 846: puts("Самара"); 
+cena = 1.4; 
+break; 
+default: printf("неверно введен код."); 
+cena = 0; 
+} 
+if (cena != 0) { 
+suiran = cena * dlit; 
+printf("Цена минуты: %i руб.\п", cena); 
+printf("Стоимость разговора: %3.2f руб.\п", suram); 
+} 
+printf("\пДля завершения нажмите <Enter>"); 
+getch(); 
+} 
