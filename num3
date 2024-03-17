@@ -1,0 +1,10 @@
+#include <iostream>
+
+int main() {
+    float summa ; 
+    int srok; 
+    int stavka; 
+    float dohod; 
+
+    return 0;
+}
