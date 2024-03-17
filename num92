@@ -1,0 +1,17 @@
+// Проверяет на четность введенное с клавиатуры число 
+#include <stdio.h> 
+#include <conio.h> 
+void mainO 
+{ 
+int n; // введенное пользователем число 
+printf("ХпВведите целое число и нажмите <Enter>"); 
+printf("-> ") ; 
+scanf("%i", &n); 
+printf("Число %i ") ; 
+if (n % 2 == 0) 
+printf("четное."); 
+else 
+printf("нечетное."); 
+printf("\п\пДля завершения нажмите <Enter>"); 
+getch(); 
+}
