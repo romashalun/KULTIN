@@ -1,0 +1,1 @@
+printf("a=%i b=%i c=%i", а, b , с) ; 
