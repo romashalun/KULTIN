@@ -1,0 +1,22 @@
+// Выводит таблицу квадратов нечетных чисел 
+#include <stdio.h> 
+#include <conio.h> 
+void main() 
+{
+i n t X = 1; / / число 
+int у; // квадрат числа 
+int i; // счетчик циклов 
+printf("Таблица квадратов\п"); 
+printf (" \п"); 
+printf("Число\tKвaдpaт\n"); 
+printf (" \п") ; 
+for (i = 1; i <= 10; i++) 
+{ 
+у = x*x; 
+printf("%3i\t%4i\n", X, y); 
+X += 2; 
+} 
+printf (" \n") ; 
+printf("\пДля завершения нажмите <Enter>"); 
+getch();
+}
