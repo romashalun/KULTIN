@@ -1,0 +1,38 @@
+// Игра "Угадай число" 
+linclude <conio.h> 
+#include <stdlib.h> // для доступа к srand 
+linclude <time.h> 
+void mainO 
+{ 
+int comp; // задуманное число 
+int igrok; // вариант игрока 
+int n; // количество попыток 
+time_t t; // текущее время - для инициализации 
+// генератора случайных чисел 
+srand((unsigned) time (&t)); 
+comp = randO % 10 +1 ; // число от 1 до 10 
+clrscrО; 
+cprintf("\п\гКомпьютер \"задумал\" число от 1 до\ 
+10.\п\г"); 
+cprintf("Вы должны его угадать за три попытки."); 
+п = 0; 
+do { 
+cprintf("\n\r->"); 
+cscanf("%i",&igrok); 
+n++; 
+} while ((igrok != comp)&&(n < 3)); 
+if (igrok == comp) 
+{
+textcolor(RED+BLINK); 
+cprintf("\п\гВЫ ВЫИГРАЛИ!"); 
+} 
+else 
+{ 
+textcolor(GREEN); 
+cprintf("\п\гВы проиграли.); 
+cprintf ("Компьютер задумал число %d",coinp); 
+} 
+textcolor(LIGHTGRAY); 
+cprintf("\п\гДля завершения нажмите любую клавишу..."); 
+getch();getch(); 
+} 
