@@ -1,0 +1,17 @@
+// Посимвольный вывод сообщения 
+#include <stdio.h> 
+#include <conio.h> 
+#include "dos.h" // для доступа к функции delay 
+void main О 
+{ 
+char msg[] = "\п\гПриветствую великого программиста!\0"; 
+int i; // номер символа 
+i = 0; 
+while(msg[i]) 
+{ 
+putch(msg[i++3); 
+delay(150); 
+} 
+printf("\п\пДля завершения нажмите <Enter>"); 
+getch(); 
+}
