@@ -1,0 +1,6 @@
+float ctetr, cobl, ckar; 
+int   ntetr, nkar;       
+float summ;              
+
+
+summ = ntetr*(ctetr+cobl) + nkar*ckar;
