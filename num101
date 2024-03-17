@@ -1,0 +1,28 @@
+// Вьюодит название дня недели 
+#include <stdio.h> 
+#include <conio.h> 
+void main() 
+{ 
+int nd; // номер дня недели 
+puts("ХпВведите номер дня недели (1..7"); 
+printf("->"); 
+scanf("%i", &nd); 
+switch (nd) 
+{ 
+case 
+case 
+case 
+case 
+case 
+case 
+puts("Понедельник"); break; 
+put s("Вторник"); break; 
+put s("Среда"); break; 
+puts("Четверг"); break; 
+puts("Пятница"); break; 
+puts("Суббота"); break; 
+puts ("Воскресеньe"); breaJc; 
+} 
+getch(); 
+default: puts("Число должно быть в диапазоне 1..7"); 
+}
