@@ -1,0 +1,15 @@
+// Вьюодит текст стихотворения 
+#include <conio.h> 
+void main() 
+{ 
+textbackground(BLUE); // цвет фона 
+textcolor(LIGHTGRAY); // цвет символов 
+clrscr(); // очистить экран 
+cprintf("Буря мглою небо кроет\п\г"); 
+cprintf("Вихри снежные крутя.\п\г"); 
+cprintf ("То как зверь она завоетЛп\г") 
+cprintf("То заплачет, как дитя.\n\n\r") 
+cprintf(" А.С.Пушкин\п\п\г")< 
+cprintf("\n\nДл я завершения нажмите <Enter>"); 
+getch(); 
+}
