@@ -1,0 +1,5 @@
+float r;     
+float v, s; 
+
+v = (3*M_PI*r*r*r)/4;
+s = 4*M_PI*r*r;
