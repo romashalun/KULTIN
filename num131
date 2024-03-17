@@ -1,0 +1,80 @@
+// Проверка умения складывать и вычитать числа 
+tinclude <stdio.h> 
+#include <conio.h> 
+tinclude <stdlib.h> // для доступа к srand и rand 
+#include <time.h> 
+#define LEVEL 97+2 // действия над числами от 2 до 99 
+void main() 
+{ 
+int nuitibl, nuinb2; // числа 
+int op; // действие над числами: 
+//О - сложение, 1 - вычитание 
+char zop; // знак операции - "плюс" или "минус" 
+int res; // результат 
+int otv; // ответ испытуемого 
+int kol =0 ; // количество правильных ответов 
+dint buf; // буфер для обмена пиптЫ и тлт1Ь2, 
+/ /в случае, если numbl<nunib2 
+int i; // счетчик циклов 
+tiine_t t; // текущее время - для инициализации 
+// генератора случайных чисел 
+printf("ХпПроверка умения складывать и вычитать числаХп"); 
+printf("После примера введите ответ и нажмите <Enter>"); 
+kol = 0; 
+srand((unsigned) time(&t));; // инициализация генератора 
+// случайных чисел 
+for (i = 1; i <- 10; i+-b) 
+{ 
+// сгенерируем пример 
+nurobl = rand О % LEVEL; // число от 2 до 99 
+numb2 = rand О % LEVEL; 
+op = rand()%2; // действие над числами 
+if (op == 0) 
+{ 
+res = numbl + nuinb2; 
+zop = '+'; 
+} 
+else 
+{ // Вычитание 
+zop = '- *; 
+i f (nuinbl < numb2) 
+{ 
+/ / обменяем numbl и nuinb2
+buf = пшпЬ2; 
+nuinb2 == numbl; 
+nurnbl = buf ; 
+} 
+res = пшпЬ1 - nuinb2; 
+numbl, zop, numb2); // вывести пример 
+// получить ответ испытуемого 
+} 
+printf("%i%c%i=", 
+scanf("%i", &otv) 
+if (otv == res) 
+kol++; 
+else printf("Вы ошиблись. %i%c%i=%i\n", 
+nunuDl, zop, nuinb2, res) ; 
+} 
+printf("Правильных ответов: %i\n", kol); 
+printf("Ваша оценка:\n"); 
+switch (kol) 
+{ 
+case 10 
+case 9 
+case 8 
+case 7 
+default 
+puts("5") 
+puts("4") 
+puts("4") 
+puts("3") 
+puts("2") 
+break 
+bireak 
+break 
+break 
+break 
+} 
+printf("\пДля завершения нажмите <Enter>"); 
+getch(); 
+}
